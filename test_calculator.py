@@ -14,7 +14,7 @@ class CustomException(BaseException):
 class CalculatorTest(unittest.TestCase):
     def test_add(self):
         first_number = 2.8
-        second_number = 4.1
+        second_number = 4.
         answer = add(first_number, second_number)
         self.assertEqual(answer, 6.9)
         assert type(answer) == float
@@ -49,8 +49,3 @@ class CalculatorTest(unittest.TestCase):
     #         print(f"Oopsie! You chose the numbers {err.arg1} and {err.arg2}. I'm sorry my love but you can't divide by zero")
 
 
-
-
-                # first_number = 1000
-        # second_number = 0
-        # self.assertRaises(ValueError, divide(first_number, second_number))
