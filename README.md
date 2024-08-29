@@ -3,7 +3,7 @@
 This calculator has 4 operations: addition, subtraction, multiplication and division. 
 It requires the user to provide 2 numbers and choose an operator to perform the calculation. The answer is rounded by up to two decimal places
 
-## Description
+## Description:
 
 Used python to build a calculator that relies on functions, if statements and error handling. 
 
